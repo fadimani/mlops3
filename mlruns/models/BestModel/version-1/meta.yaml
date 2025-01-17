@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1737050061420
+current_stage: None
+description: null
+last_updated_timestamp: 1737050061420
+name: BestModel
+run_id: 8199cd163eac4904ad5a8de910f54733
+run_link: null
+source: file:///C:/Users/imani/PycharmProjects/projet_MLOPS_V5/mlruns/894923872765895610/8199cd163eac4904ad5a8de910f54733/artifacts/BestModel
+status: READY
+status_message: null
+storage_location: file:///C:/Users/imani/PycharmProjects/projet_MLOPS_V5/mlruns/894923872765895610/8199cd163eac4904ad5a8de910f54733/artifacts/BestModel
+user_id: null
+version: 1

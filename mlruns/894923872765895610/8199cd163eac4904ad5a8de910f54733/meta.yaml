@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/imani/PycharmProjects/projet_MLOPS_V5/mlruns/894923872765895610/8199cd163eac4904ad5a8de910f54733/artifacts
+end_time: 1737050061450
+entry_point_name: ''
+experiment_id: '894923872765895610'
+lifecycle_stage: active
+run_id: 8199cd163eac4904ad5a8de910f54733
+run_name: Register_BestModel
+run_uuid: 8199cd163eac4904ad5a8de910f54733
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737050057179
+status: 3
+tags: []
+user_id: imani
