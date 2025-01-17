@@ -61,6 +61,7 @@ Le but de ce projet est de creer une solution robuste de machine learning pour p
 
 ## Structure du Projet MLOps3
 
+```
 mlops3/
 ├── .github/
 │   └── workflows/                         # Configuration des workflows GitHub Actions
@@ -81,7 +82,7 @@ mlops3/
 ├── Dockerfile                            # Fichier Docker pour le déploiement
 ├── test_mission_4.py                     # Tests unitaires pour la mission 4
 └── README.md                             # Documentation du projet
-
+```
 
 ---
 
