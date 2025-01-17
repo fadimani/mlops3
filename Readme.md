@@ -12,9 +12,7 @@ Ce depot GitHub illustre une pipeline **MLOps complete** pour la prediction des 
 3. [Technologies utilisees](#technologies-utilisees)
 4. [Structure du projet](#structure-du-projet)
 5. [Prise en main](#prise-en-main)
-6. [Utilisation](#utilisation)
-7. [Ameliorations futures](#ameliorations-futures)
-8. [Contributeurs](#contributeurs)
+6. [Contributeurs](#contributeurs)
 
 ---
 
@@ -25,32 +23,6 @@ Le but de ce projet est de creer une solution robuste de machine learning pour p
 - **Automatiser les pipelines de machine learning**.
 - **Assurer une supervision continue** grace a la detection du derive des donnees.
 - **Simplifier le reentrainement des modeles** lorsque des changements dans les donnees sont detectes.
-
----
-
-Structure du Projet MLOps3
-==========================
-
-mlops3/
-├── .github/
-│   └── workflows/                         # Configuration des workflows GitHub Actions
-├── data/
-│   ├── cleaned_california_housing.csv    # Données d'entraînement nettoyées
-│   ├── live_data.csv                     # Données simulées en production
-├── mlruns/                               # Suivi des expériences avec MLflow
-├── reports/
-│   ├── data_drift_report.html            # Rapport de dérive des données
-├── evidently_monitor.py                  # Surveillance et rapports avec Evidently
-├── interface.py                          # Interface utilisateur pour les prédictions
-├── main.py                               # Script principal pour l'exécution de la pipeline
-├── mission_1.ipynb                       # Notebook pour la mission 1
-├── mission_2_&_3.ipynb                   # Notebook pour les missions 2 et 3
-├── mission_2_&_3_v2.ipynb                # Version 2 du notebook pour les missions 2 et 3
-├── mission_4.py                          # Script pour la mission 4
-├── requirements.txt                      # Liste des dépendances Python
-├── Dockerfile                            # Fichier Docker pour le déploiement
-├── test_mission_4.py                     # Tests unitaires pour la mission 4
-└── README.md                             # Documentation du projet
 
 ---
 
@@ -87,6 +59,34 @@ mlops3/
 
 ---
 
+"""
+Structure du Projet MLOps3
+==========================
+
+mlops3/
+├── .github/
+│   └── workflows/                         # Configuration des workflows GitHub Actions
+├── data/
+│   ├── cleaned_california_housing.csv    # Données d'entraînement nettoyées
+│   ├── live_data.csv                     # Données simulées en production
+├── mlruns/                               # Suivi des expériences avec MLflow
+├── reports/
+│   ├── data_drift_report.html            # Rapport de dérive des données
+├── evidently_monitor.py                  # Surveillance et rapports avec Evidently
+├── interface.py                          # Interface utilisateur pour les prédictions
+├── main.py                               # Script principal pour l'exécution de la pipeline
+├── mission_1.ipynb                       # Notebook pour la mission 1
+├── mission_2_&_3.ipynb                   # Notebook pour les missions 2 et 3
+├── mission_2_&_3_v2.ipynb                # Version 2 du notebook pour les missions 2 et 3
+├── mission_4.py                          # Script pour la mission 4
+├── requirements.txt                      # Liste des dépendances Python
+├── Dockerfile                            # Fichier Docker pour le déploiement
+├── test_mission_4.py                     # Tests unitaires pour la mission 4
+└── README.md                             # Documentation du projet
+"""
+
+---
+
 ## Prise en main
 
 ### 1. Cloner le depot
@@ -106,3 +106,14 @@ venv\Scripts\activate   # Windows
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+
+"""
+## Contributeurs
+=============
+
+- **Fadi Imani** : Createur et mainteneur du projet.
+- **Yassir El Hamidi** : Createur et mainteneur du projet.
+"""
+
